@@ -1,7 +1,5 @@
 # Desafio estagiário: HTML/CSS/JS
 
-> **ATENÇÃO:** Antes de começar, se [cadastre na vaga](https://linxneemuchaordic.recruiterbox.com/) via Recruiterbox **=]**
-
 O desafio proposto consiste numa **landing page** simulando um encurtador de links, onde testará as habilidades e qualidade de código de um desenvolvedor front-end ao transformar um layout em um protótipo funcional. 
 
 ### Instruções
@@ -31,12 +29,12 @@ O desafio proposto consiste numa **landing page** simulando um encurtador de lin
 - Boa documentação;
 - Uso de pré-processadores CSS ([Sass](http://sass-lang.com), [Less](http://lesscss.org), [Stylus](http://stylus-lang.com));
 - Adaptar a página para dispositivos móveis (torná-la responsiva);
-- Utilizar alguma automatização ([Grunt](http://gruntjs.com), [Gulp](http://gulpjs.com), [NPM Scripts](https://docs.npmjs.com/misc/scripts))
+- Utilizar alguma automatização ([Grunt](http://gruntjs.com), [Gulp](http://gulpjs.com), [NPM Scripts](https://docs.npmjs.com/misc/scripts)), [React] (https://github.com/facebook/create-react-app)
 - Criar [essa interação](./Layout/Shortener-interaction.gif) utilizando JavaScript;
 - Consumir esse [JSON](./Assets/urls.json) para a seção **TOP 5**, também utilizando JavaScript.
 
 ---
 
-Em caso de dúvidas, [abra uma issue](https://github.com/chaordic/frontend-intern-challenge/issues).
+Em caso de dúvidas, entre em contato com contato@solidareasy.com.
 
 **Boa sorte =]**
