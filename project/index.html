@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title>Encurtador de links</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Daniele Reis">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Assets/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+</head>
+<body>
+		<header>
+		<img src="Assets/logo-chaordic.png" alt="logo_chaordic">
+		</header>
+		<main>
+			<section id="principal">
+					<figure class="banner"><img src="Assets/background-home.jpg" alt="banner"><figcaption>
+						<h1>Encurte seus links.</h1>
+				<p>Links são longos. Encurte os links que deseja compartilhar,<br> e acompanhe enquanto viajam através da internet.</p>
+					<input id="url" type="search" placeholder="Cole seu Link aqui" value="">
+					<button id="button" onclick="encurtar()">Encurtar</button>
+				</figcaption></figure></section>
+		<section id="top5">
+			<h2>Top 5</h2>
+			<div id="links" class="links">
+				<!-- Os dados do JSON serão listados aqui -->
+			</div>
+		</section>
+		<section id="hits">
+			<h2>Hits</h2>
+			<div class="count"><p class="num">35.713.571</p><p>cliques em links</p></div>
+		</section>
+	</main>
+	<footer>
+		<div class="text"><p>chr.dc</div>
+		<div class="icons">
+		<a href="#"><img src="Assets/icon-twitter.png"></a>
+		<a href="#"><img src="Assets/icon-facebook.png"></a>
+		</div>
+	</footer>
+	<!-- Função para listar dados JSON -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var saida = [];
+          $.getJSON('Assets/urls.json', function(data) {
+          	var dados = data;
+          		for (var i = 0; i < dados.length; i++){
+          			saida += '<div class="link"><p>'+ data[i].shortUrl+'</p></div><div class="qt"><p>'+data[i].hits+'</p></div><hr>';
+          		}
+          		$('#links').html(saida);
+               		
+});
+      });
+	</script>
+	<!-- Função para simular o encurtador de link -->
+	<script type="text/javascript">
+		function encurtar(){
+			$('#url').val('http://chr.dc/9opw2');
+			$('#url').css("color","#fff");
+         	$('#button').html('Copiar');
+	
+         }	
+  
+	</script>
+</body>
+</html>
