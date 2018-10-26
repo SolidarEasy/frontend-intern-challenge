@@ -1,0 +1,171 @@
+/* CSS */
+
+/* Estilo que define a header da pagina */
+.logo_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 50px;
+}
+
+/* Estilo que define o footer da pagina */
+.footer {
+  min-width: 50px;
+  max-width: 50px;
+  height: 50px;
+  width: 50px;
+  color: white;
+}
+
+/* Estilo que define o formato do container que com a imagem, butao e input */
+.container {
+  position: relative;
+  text-align: center;
+  font-family: 'Roboto';
+  color: white;
+  font-size:40px;
+}
+
+/* Estilo que define a posiçao do texto */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Estilo que define o tamanho da div que contam o numero de hits */
+.container_Hits {
+  height: 200px;
+  background-color: #EEE;
+}
+
+/* Estilo que define a posicao e a cor da lista de link */
+.centered_lista {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #AA1423
+}
+
+/* Estilo que define a altura e cor do container*/
+.container_lista {
+  height: 300px;
+  background-color: white;
+}
+
+/* Estilo que define a posicao e cor do h1 da outra classe container_Hits */
+.info {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #AA1423;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 48%;
+  top: 95%;
+}
+
+/* Estilo que define a posicao e cor do h1 da outra classe container_lista */
+.info_lista {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #AA1423;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 48%;
+  top: 57%;
+}
+
+/* CSS id*/
+
+/* Estilo que define posicao do icone do facebook */
+#icon_facebook {
+  align-self: center;
+}
+
+/* Estilo que define posicao do icone do twitter */
+#icon_twitter {
+  align-self: center;
+  padding-left: 1200px;
+  padding-right: 20px;
+}
+
+/* Estilo que define a posiçao e cor do spam do footer*/
+#sigla {
+  align-self: center;
+  padding-left: 100px;
+  display: flex;
+  font-size:26px;
+  padding-top: 10px;
+  font-family: 'Roboto';
+  color: #AA1423;
+}
+
+/* Estilo que define a posicao do paragrafo que fala sobre os links */
+#texto_centro {
+  position: relative;
+  text-align: center;
+  font-family: 'Roboto';
+  color: white;
+  font-size:20px;
+}
+
+/* Estilo que define o tamanho da imagem para desktop */
+#imagem_tamanho {
+  width: 1665px;
+  height: 480px;
+
+}
+
+/* Estilo que define a cor e posiçao da quantidades de clicks*/
+#clicks {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #AA1423;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 45.9%;
+  top: 102%;
+  background-color: white;
+  border-color:#EEE;
+  border-style: outset;
+}
+
+/* Estilo que define a cor e posiçao do texto abaixo da quantidade de clicks */
+#text_clicks {
+  font-family: 'Roboto';
+  font-size: 15.5px;
+  color: #777;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 46.9%;
+  top: 106.8%;
+}
+
+/* Estilo que define a cor e distancia dos objetos da tabela de links e quantidade de clicks*/
+#cor_link {
+  color: #AA1423;
+  padding-right: 200px;
+}
+
+/* Estilo que define a cor da quantidade de clicks da tabela */
+#cor_hits {
+  color: #777;
+}
+
+/* Estilo que define a posicao da tabela*/
+#table_style {
+  position: relative;
+  left: 37%;
+  top: 16%;
+}
