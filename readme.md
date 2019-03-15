@@ -1,4 +1,4 @@
-# Desafio HTML/CSS/JS
+# Desafio Encurtador de Links
 
 O desafio proposto consiste numa **landing page** simulando um encurtador de links, onde testará as habilidades e qualidade de código de um desenvolvedor front-end ao transformar um layout em um protótipo funcional. 
 
